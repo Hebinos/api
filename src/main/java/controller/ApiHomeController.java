@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @EnableAutoConfiguration
-@PropertySource(value = "classpath:application.properties")
 public class ApiHomeController {
 
     @RequestMapping
